@@ -1,0 +1,40 @@
+.crowser{
+    display: flex;
+    height: 60vh;
+}
+.crowser-left{
+width: 15%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.crowser-left a{
+    padding: 10px 20px;
+
+    color: #111;
+    font-size: 18px;
+}
+.crowser-left a:hover{
+    background: #111;
+    color: #fff;
+    
+}
+.crowser-right{
+    width: 85%;
+}
+.crowser-right img{
+    width: 100%;
+    object-fit: cover;
+    height: 60vh;
+}
+/* banner  */
+.topbanner{
+    width: 100%;
+    margin: 10px 0;
+}
+.topbanner img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}

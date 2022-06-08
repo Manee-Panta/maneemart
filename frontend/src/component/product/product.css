@@ -1,0 +1,41 @@
+.product-title{
+    margin: 20px 0;
+}
+.product-title h2{
+  text-align: center;
+  color:#F95501;
+  text-decoration: underline;
+  font-size: 30px;
+  padding-bottom: 5px;
+  
+}
+.product-body{
+    margin: 5px 5px;
+    padding: 2px 20px;
+    display: flex;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    
+}
+.product-body::-webkit-scrollbar{
+ 
+    background: #fff;
+}
+.product-body img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 15px;
+    transition: transform 450ms;
+}
+.product-body img:hover{
+    transform: scale(1.08);
+
+}
+.banner{
+    margin: 10px 0;
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}

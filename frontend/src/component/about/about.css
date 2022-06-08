@@ -1,0 +1,70 @@
+.about-main {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background: url("/public/collection/banner/aboutus2.jpg"),
+    linear-gradient(rgb(247, 128, 68), rgb(107, 91, 67));
+  background-repeat: no-repeat, repeat;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+.first-txt {
+  font-size: 35px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  font-family: cursive;
+
+  color: #fff;
+}
+
+.second-txt {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  font-family: cursive;
+  color: #fff;
+}
+.third-txt {
+  font-size: 35px;
+  position: absolute;
+  top: 210px;
+  left: 30px;
+  font-family: cursive;
+  color: #fff;
+}
+.fourth-txt {
+  position: absolute;
+  top: 290px;
+  left: 30px;
+  font-family: cursive;
+  color: #fff;
+}
+.about-last {
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 550px;
+  left: 500px;
+  font-size: 35px;
+  font-family: cursive;
+  color: rgb(171, 225, 246);
+}
+.about-button {
+  margin-top: 680px;
+  position: absolute;
+  text-align: center;
+  left: 710px;
+  height: 50px;
+  width: 150px;
+  border-style: none;
+  box-sizing: border-box;
+  border-radius: 30px;
+  color: #fff;
+  background: rgb(209, 71, 2);
+  font-size: 20px;
+  padding: 10px;
+}

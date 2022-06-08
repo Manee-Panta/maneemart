@@ -1,0 +1,42 @@
+import React from "react";
+import "../product_details/product_details.css";
+import product from "../../API/product.js";
+import { useParams } from "react-router-dom";
+const Product_details = () => {
+  const { pk } = useParams();
+
+  const result = product.filter((item) => {
+    return pk == item.id;
+  });
+ 
+  return (
+    <div className="product-details-main">
+      <div className="col1">
+        {/* <div className="image">Image Here</div> */}
+        <img src={`../${result[0].photo}`} alt="no" />
+      </div>
+      <div className="col2">
+        <div className="description">
+          <h1>{result[0].name}</h1>
+          <h2>⭐⭐⭐⭐⭐</h2>
+          <h3>Rs 4000</h3>
+          <h2>Available</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            excepturi suscipit, unde incidunt eveniet, totam quae itaque sequi
+            inventore voluptas autem, modi exercitationem. Unde rem veniam
+            debitis deserunt magnam, nobis et dolore voluptatum vel accusamus ex
+            natus consequatur molestias ullam sint minima, laborum, obcaecati
+            illo perspiciatis atque ad. Hic, alias?
+          </p>
+          <div className="productDetailBtn">
+            <button className="buybtn">Buy Now</button>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Product_details;

@@ -1,0 +1,57 @@
+import React from "react";
+import "./product.css";
+import product from "../../API/product.js";
+import newArrival from "../../API/newArrivial.js";
+import popular from "../../API/popular";
+import { Link } from "react-router-dom";
+const Product = () => {
+  return (
+    <>
+      <div className="product-main">
+        <div className="product-title">
+          <h2>Recommended For You</h2>
+        </div>
+        <div className="product-body">
+          {product.map((item) => {
+            return (
+              <Link key={item.id} to={`product_details/${item.id}`}>
+                <img src={item.photo} alt="no find" />
+              </Link>
+            );
+          })}
+        </div>
+
+       
+        <div className="product-title">
+          <h2>New Arrivals</h2>
+        </div>
+        <div className="product-body">
+          {newArrival.map((item, index) => {
+            return (
+              <Link key={item.id} to={`product_details/${item.id}`}>
+                <img src={item.photo} alt="" srcset="" />
+              </Link>
+            );
+          })}
+        </div>
+        <div className="banner">
+          <img src="../collection/banner/main.gif" alt="banner" />
+        </div>
+        <div className="product-title">
+          <h2>Most Popular</h2>
+        </div>
+        <div className="product-body">
+          {popular.map((item, index) => {
+            return (
+              <Link key={item.id} to={`product_details/${item.id}`}>
+                <img src={item.photo} alt="" srcset="" />
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Product;

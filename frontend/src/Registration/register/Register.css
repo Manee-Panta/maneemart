@@ -1,0 +1,148 @@
+.register-all{
+    
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 150px; */
+  
+    }
+    .site-logo {
+        height: 55px;
+        width: 200px;
+        margin-top: 40px;
+       
+    }
+    .co1{
+        flex: .2;
+     
+    
+    }
+    .col1 img{
+        height: 500px;
+        width: 500px;
+        margin: 60px;
+        margin-left: 100px;
+        
+    }
+    .col2{
+        flex: .8;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .register-main {
+        text-align: center;
+        justify-content: center;
+        display: flex; 
+      height: 500px;
+      width: 400px;
+      margin: 100px 0px;
+      border-radius: 20px;
+        background-color:rgb(226,198,158)
+      }
+      .register-profile img{
+          height: 100px;
+          width: 100px;
+          margin: 15px 0;
+      }
+      .register-email{
+          display: flex;
+          height: 40px;
+          text-align: center;
+         margin-left: 20px;
+         margin-top: 10px;
+         
+         
+      }
+      
+      .register-email input{
+          margin-top: 15px;
+          border-radius: 10px;
+          box-sizing: border-box;
+          padding: 10px;
+         width: 230px;
+          height: 35px;
+        
+      }
+      .register-name{
+          display: flex;
+          height: 40px;
+          text-align: center;
+         margin-left: 20px;
+         margin-top: 10px;
+         
+         
+      }
+      
+      .register-name input{
+          margin-top: 15px;
+          border-radius: 10px;
+          box-sizing: border-box;
+          padding: 10px;
+         width: 230px;
+          height: 35px;
+        
+      }
+      .register-pass{
+        display: flex;
+        height: 40px;
+        text-align: center;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        
+    }
+      .register-pass input{
+        margin-top: 15px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 230px;
+        height: 35px;margin-top: 25px;
+    }
+      .register-cpass{
+        display: flex;
+        height: 40px;
+        text-align: center;
+        margin-left: 20px;
+        
+        
+    }
+      .register-cpass input{
+        margin-top: 15px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 230px;
+        height: 35px;margin-top: 25px;
+    }
+    .register-button{
+        background: rgb(225, 102, 35);
+        margin-top: 50px;
+        border-radius: 15px;
+        width: 100px;
+        height: 30px;
+        margin-left: 80px;
+    }
+    .register-button button {
+    background: rgb(231, 100, 29);
+    border-style: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+    
+    }
+    .register-footer{
+       
+        display: flex;
+        
+    }
+    .register-footer a{
+        
+        margin-top: 20px;
+        flex-direction: column;
+        margin-left: 50px;
+        
+    }
+      
+     
